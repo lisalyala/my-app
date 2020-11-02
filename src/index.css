@@ -1,0 +1,50 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+}
+
+ul {
+  padding: 40px;
+  text-align: center;
+}
+
+div {
+  margin: auto;
+  width: 75%;
+  padding: 20px;
+  text-align: center;
+  background: #A491B4; /* purple */
+}
+
+
+.next-button {
+  background-color: #91b4a4; /* teal */
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 14px 40px;
+}
+
+.answers-button {
+  padding: 30px;
+  background-color: #BBAD9C; /* tan */
+  border: 2px solid #A491B4;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.correct {
+  background-color: #00b462; /* green */
+}
+.incorrect {
+  background-color: #ff0000; /* red */
+}
+
+.shadow:hover {
+  background: #485A51;
+}
+
+.highlight:hover {
+  background: #908374;
+}
